@@ -2,7 +2,6 @@ import java.util.HashMap;
 
 public class UC8 {
 
-    // Create and populate character map
     public static HashMap<Character, String[]> createCharacterMap() {
 
         HashMap<Character, String[]> charMap = new HashMap<>();
@@ -50,7 +49,6 @@ public class UC8 {
         return charMap;
     }
 
-    // Display banner
     public static void displayBanner(String message, HashMap<Character, String[]> charMap) {
 
         int patternHeight = 7;
@@ -68,7 +66,7 @@ public class UC8 {
         }
     }
 
-    // Main method
+
     public static void main(String[] args) {
 
         HashMap<Character, String[]> charMap = createCharacterMap();
